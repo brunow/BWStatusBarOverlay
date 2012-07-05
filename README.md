@@ -57,7 +57,7 @@ Animation type
 
 BWStatusBarOverlay is ARC only.
 
-# Contact
+## Contact
 
 Bruno Wernimont
 

@@ -3,8 +3,11 @@
 BWStatusBarOverlay is a custom status bar overlay window. It support touch by setting a block that will be called after touch. It work well on both iPad and iPhone and of course in any orientation.
 
 ![Screenshot](https://github.com/brunow/BWStatusBarOverlay/raw/master/picture1.jpg)
+
 ![Screenshot](https://github.com/brunow/BWStatusBarOverlay/raw/master/picture2.jpg)
+
 ![Screenshot](https://github.com/brunow/BWStatusBarOverlay/raw/master/picture3.jpg)
+
 ![Screenshot](https://github.com/brunow/BWStatusBarOverlay/raw/master/picture4.jpg)
 
 ## Installation

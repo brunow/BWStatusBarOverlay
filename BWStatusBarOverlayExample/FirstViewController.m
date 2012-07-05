@@ -27,6 +27,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 - (NSString *)randomMessage {
     int r = rand() % 74;
+    return @"Download files 1 of 2";
     return [NSString stringWithFormat:@"Random number %d", r];
 }
 

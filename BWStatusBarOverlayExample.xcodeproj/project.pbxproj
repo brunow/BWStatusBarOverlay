@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70C8F9615A42FF9008C0CB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C8F9515A42FF9008C0CB6 /* UIKit.framework */; };
+		E70C8F9815A42FF9008C0CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C8F9715A42FF9008C0CB6 /* Foundation.framework */; };
+		E70C8F9A15A42FF9008C0CB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C8F9915A42FF9008C0CB6 /* CoreGraphics.framework */; };
+		E70C8FA015A42FF9008C0CB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E70C8F9E15A42FF9008C0CB6 /* InfoPlist.strings */; };
+		E70C8FA215A42FF9008C0CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C8FA115A42FF9008C0CB6 /* main.m */; };
+		E70C8FA615A42FF9008C0CB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C8FA515A42FF9008C0CB6 /* AppDelegate.m */; };
+		E70C8FAE15A42FF9008C0CB6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C8FAD15A42FF9008C0CB6 /* SenTestingKit.framework */; };
+		E70C8FAF15A42FF9008C0CB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C8F9515A42FF9008C0CB6 /* UIKit.framework */; };
+		E70C8FB015A42FF9008C0CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C8F9715A42FF9008C0CB6 /* Foundation.framework */; };
+		E70C8FB815A42FF9008C0CB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E70C8FB615A42FF9008C0CB6 /* InfoPlist.strings */; };
+		E70C8FBB15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C8FBA15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.m */; };
+		E70C8FCB15A43013008C0CB6 /* BWStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C8FC615A43013008C0CB6 /* BWStatusBarOverlay.m */; };
+		E70C8FCC15A43013008C0CB6 /* status-bar-pattern-black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70C8FC715A43013008C0CB6 /* status-bar-pattern-black.jpg */; };
+		E70C8FCD15A43013008C0CB6 /* status-bar-pattern-black@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70C8FC815A43013008C0CB6 /* status-bar-pattern-black@2x.jpg */; };
+		E70C8FCE15A43013008C0CB6 /* status-bar-pattern-default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70C8FC915A43013008C0CB6 /* status-bar-pattern-default.jpg */; };
+		E70C8FCF15A43013008C0CB6 /* status-bar-pattern-default@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70C8FCA15A43013008C0CB6 /* status-bar-pattern-default@2x.jpg */; };
+		E747F89715A431F800D5B386 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C8FD115A43023008C0CB6 /* FirstViewController.m */; };
+		E747F89815A4321100D5B386 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70C8FD215A43023008C0CB6 /* FirstViewController.xib */; };
+		E747F89A15A4747200D5B386 /* status-bar-progress.png in Resources */ = {isa = PBXBuildFile; fileRef = E747F89915A4747200D5B386 /* status-bar-progress.png */; };
+		E747F89C15A4752A00D5B386 /* status-bar-progress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E747F89B15A4752A00D5B386 /* status-bar-progress@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70C8FB115A42FF9008C0CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70C8F8815A42FF9008C0CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70C8F9015A42FF9008C0CB6;
+			remoteInfo = BWStatusBarOverlayExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E70C8F9115A42FF9008C0CB6 /* BWStatusBarOverlayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWStatusBarOverlayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70C8F9515A42FF9008C0CB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E70C8F9715A42FF9008C0CB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E70C8F9915A42FF9008C0CB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E70C8F9D15A42FF9008C0CB6 /* BWStatusBarOverlayExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWStatusBarOverlayExample-Info.plist"; sourceTree = "<group>"; };
+		E70C8F9F15A42FF9008C0CB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E70C8FA115A42FF9008C0CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E70C8FA315A42FF9008C0CB6 /* BWStatusBarOverlayExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BWStatusBarOverlayExample-Prefix.pch"; sourceTree = "<group>"; };
+		E70C8FA415A42FF9008C0CB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E70C8FA515A42FF9008C0CB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E70C8FAC15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWStatusBarOverlayExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70C8FAD15A42FF9008C0CB6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E70C8FB515A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWStatusBarOverlayExampleTests-Info.plist"; sourceTree = "<group>"; };
+		E70C8FB715A42FF9008C0CB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E70C8FB915A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWStatusBarOverlayExampleTests.h; sourceTree = "<group>"; };
+		E70C8FBA15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWStatusBarOverlayExampleTests.m; sourceTree = "<group>"; };
+		E70C8FC515A43013008C0CB6 /* BWStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWStatusBarOverlay.h; sourceTree = "<group>"; };
+		E70C8FC615A43013008C0CB6 /* BWStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWStatusBarOverlay.m; sourceTree = "<group>"; };
+		E70C8FC715A43013008C0CB6 /* status-bar-pattern-black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-black.jpg"; sourceTree = "<group>"; };
+		E70C8FC815A43013008C0CB6 /* status-bar-pattern-black@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-black@2x.jpg"; sourceTree = "<group>"; };
+		E70C8FC915A43013008C0CB6 /* status-bar-pattern-default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-default.jpg"; sourceTree = "<group>"; };
+		E70C8FCA15A43013008C0CB6 /* status-bar-pattern-default@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "status-bar-pattern-default@2x.jpg"; sourceTree = "<group>"; };
+		E70C8FD015A43023008C0CB6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E70C8FD115A43023008C0CB6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E70C8FD215A43023008C0CB6 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		E747F89915A4747200D5B386 /* status-bar-progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-bar-progress.png"; sourceTree = "<group>"; };
+		E747F89B15A4752A00D5B386 /* status-bar-progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-bar-progress@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70C8F8E15A42FF9008C0CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C8F9615A42FF9008C0CB6 /* UIKit.framework in Frameworks */,
+				E70C8F9815A42FF9008C0CB6 /* Foundation.framework in Frameworks */,
+				E70C8F9A15A42FF9008C0CB6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C8FA815A42FF9008C0CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C8FAE15A42FF9008C0CB6 /* SenTestingKit.framework in Frameworks */,
+				E70C8FAF15A42FF9008C0CB6 /* UIKit.framework in Frameworks */,
+				E70C8FB015A42FF9008C0CB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E70C8F8615A42FF9008C0CB6 = {
+			isa = PBXGroup;
+			children = (
+				E70C8FC415A43013008C0CB6 /* BWStatusBarOverlay */,
+				E70C8F9B15A42FF9008C0CB6 /* BWStatusBarOverlayExample */,
+				E70C8FB315A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests */,
+				E70C8F9415A42FF9008C0CB6 /* Frameworks */,
+				E70C8F9215A42FF9008C0CB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E70C8F9215A42FF9008C0CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70C8F9115A42FF9008C0CB6 /* BWStatusBarOverlayExample.app */,
+				E70C8FAC15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70C8F9415A42FF9008C0CB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E70C8F9515A42FF9008C0CB6 /* UIKit.framework */,
+				E70C8F9715A42FF9008C0CB6 /* Foundation.framework */,
+				E70C8F9915A42FF9008C0CB6 /* CoreGraphics.framework */,
+				E70C8FAD15A42FF9008C0CB6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E70C8F9B15A42FF9008C0CB6 /* BWStatusBarOverlayExample */ = {
+			isa = PBXGroup;
+			children = (
+				E70C8FD015A43023008C0CB6 /* FirstViewController.h */,
+				E70C8FD115A43023008C0CB6 /* FirstViewController.m */,
+				E70C8FD215A43023008C0CB6 /* FirstViewController.xib */,
+				E70C8FA415A42FF9008C0CB6 /* AppDelegate.h */,
+				E70C8FA515A42FF9008C0CB6 /* AppDelegate.m */,
+				E70C8F9C15A42FF9008C0CB6 /* Supporting Files */,
+			);
+			path = BWStatusBarOverlayExample;
+			sourceTree = "<group>";
+		};
+		E70C8F9C15A42FF9008C0CB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E70C8F9D15A42FF9008C0CB6 /* BWStatusBarOverlayExample-Info.plist */,
+				E70C8F9E15A42FF9008C0CB6 /* InfoPlist.strings */,
+				E70C8FA115A42FF9008C0CB6 /* main.m */,
+				E70C8FA315A42FF9008C0CB6 /* BWStatusBarOverlayExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E70C8FB315A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E70C8FB915A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.h */,
+				E70C8FBA15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.m */,
+				E70C8FB415A42FF9008C0CB6 /* Supporting Files */,
+			);
+			path = BWStatusBarOverlayExampleTests;
+			sourceTree = "<group>";
+		};
+		E70C8FB415A42FF9008C0CB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E70C8FB515A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests-Info.plist */,
+				E70C8FB615A42FF9008C0CB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E70C8FC415A43013008C0CB6 /* BWStatusBarOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				E70C8FC515A43013008C0CB6 /* BWStatusBarOverlay.h */,
+				E70C8FC615A43013008C0CB6 /* BWStatusBarOverlay.m */,
+				E747F89915A4747200D5B386 /* status-bar-progress.png */,
+				E747F89B15A4752A00D5B386 /* status-bar-progress@2x.png */,
+				E70C8FC715A43013008C0CB6 /* status-bar-pattern-black.jpg */,
+				E70C8FC815A43013008C0CB6 /* status-bar-pattern-black@2x.jpg */,
+				E70C8FC915A43013008C0CB6 /* status-bar-pattern-default.jpg */,
+				E70C8FCA15A43013008C0CB6 /* status-bar-pattern-default@2x.jpg */,
+			);
+			path = BWStatusBarOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E70C8F9015A42FF9008C0CB6 /* BWStatusBarOverlayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70C8FBE15A42FF9008C0CB6 /* Build configuration list for PBXNativeTarget "BWStatusBarOverlayExample" */;
+			buildPhases = (
+				E70C8F8D15A42FF9008C0CB6 /* Sources */,
+				E70C8F8E15A42FF9008C0CB6 /* Frameworks */,
+				E70C8F8F15A42FF9008C0CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWStatusBarOverlayExample;
+			productName = BWStatusBarOverlayExample;
+			productReference = E70C8F9115A42FF9008C0CB6 /* BWStatusBarOverlayExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E70C8FAB15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70C8FC115A42FF9008C0CB6 /* Build configuration list for PBXNativeTarget "BWStatusBarOverlayExampleTests" */;
+			buildPhases = (
+				E70C8FA715A42FF9008C0CB6 /* Sources */,
+				E70C8FA815A42FF9008C0CB6 /* Frameworks */,
+				E70C8FA915A42FF9008C0CB6 /* Resources */,
+				E70C8FAA15A42FF9008C0CB6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70C8FB215A42FF9008C0CB6 /* PBXTargetDependency */,
+			);
+			name = BWStatusBarOverlayExampleTests;
+			productName = BWStatusBarOverlayExampleTests;
+			productReference = E70C8FAC15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70C8F8815A42FF9008C0CB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E70C8F8B15A42FF9008C0CB6 /* Build configuration list for PBXProject "BWStatusBarOverlayExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E70C8F8615A42FF9008C0CB6;
+			productRefGroup = E70C8F9215A42FF9008C0CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E70C8F9015A42FF9008C0CB6 /* BWStatusBarOverlayExample */,
+				E70C8FAB15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70C8F8F15A42FF9008C0CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C8FA015A42FF9008C0CB6 /* InfoPlist.strings in Resources */,
+				E70C8FCC15A43013008C0CB6 /* status-bar-pattern-black.jpg in Resources */,
+				E70C8FCD15A43013008C0CB6 /* status-bar-pattern-black@2x.jpg in Resources */,
+				E70C8FCE15A43013008C0CB6 /* status-bar-pattern-default.jpg in Resources */,
+				E70C8FCF15A43013008C0CB6 /* status-bar-pattern-default@2x.jpg in Resources */,
+				E747F89815A4321100D5B386 /* FirstViewController.xib in Resources */,
+				E747F89A15A4747200D5B386 /* status-bar-progress.png in Resources */,
+				E747F89C15A4752A00D5B386 /* status-bar-progress@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C8FA915A42FF9008C0CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C8FB815A42FF9008C0CB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E70C8FAA15A42FF9008C0CB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70C8F8D15A42FF9008C0CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C8FA215A42FF9008C0CB6 /* main.m in Sources */,
+				E70C8FA615A42FF9008C0CB6 /* AppDelegate.m in Sources */,
+				E70C8FCB15A43013008C0CB6 /* BWStatusBarOverlay.m in Sources */,
+				E747F89715A431F800D5B386 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70C8FA715A42FF9008C0CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C8FBB15A42FF9008C0CB6 /* BWStatusBarOverlayExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E70C8FB215A42FF9008C0CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70C8F9015A42FF9008C0CB6 /* BWStatusBarOverlayExample */;
+			targetProxy = E70C8FB115A42FF9008C0CB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E70C8F9E15A42FF9008C0CB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70C8F9F15A42FF9008C0CB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E70C8FB615A42FF9008C0CB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70C8FB715A42FF9008C0CB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E70C8FBC15A42FF9008C0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70C8FBD15A42FF9008C0CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70C8FBF15A42FF9008C0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWStatusBarOverlayExample/BWStatusBarOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "BWStatusBarOverlayExample/BWStatusBarOverlayExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E70C8FC015A42FF9008C0CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWStatusBarOverlayExample/BWStatusBarOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "BWStatusBarOverlayExample/BWStatusBarOverlayExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E70C8FC215A42FF9008C0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BWStatusBarOverlayExample.app/BWStatusBarOverlayExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWStatusBarOverlayExample/BWStatusBarOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "BWStatusBarOverlayExampleTests/BWStatusBarOverlayExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E70C8FC315A42FF9008C0CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BWStatusBarOverlayExample.app/BWStatusBarOverlayExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWStatusBarOverlayExample/BWStatusBarOverlayExample-Prefix.pch";
+				INFOPLIST_FILE = "BWStatusBarOverlayExampleTests/BWStatusBarOverlayExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70C8F8B15A42FF9008C0CB6 /* Build configuration list for PBXProject "BWStatusBarOverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70C8FBC15A42FF9008C0CB6 /* Debug */,
+				E70C8FBD15A42FF9008C0CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70C8FBE15A42FF9008C0CB6 /* Build configuration list for PBXNativeTarget "BWStatusBarOverlayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70C8FBF15A42FF9008C0CB6 /* Debug */,
+				E70C8FC015A42FF9008C0CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70C8FC115A42FF9008C0CB6 /* Build configuration list for PBXNativeTarget "BWStatusBarOverlayExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70C8FC215A42FF9008C0CB6 /* Debug */,
+				E70C8FC315A42FF9008C0CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E70C8F8815A42FF9008C0CB6 /* Project object */;
+}

@@ -62,3 +62,7 @@ BWStatusBarOverlay is ARC only.
 Bruno Wernimont
 
 - Twitter - [@brunowernimont](http://twitter.com/brunowernimont)
+
+## Thanks
+
+Thanks to [Noomia](http://noomiastudio.com/) for the blue gradient image.

@@ -96,8 +96,14 @@
     self = [super initWithFrame:CGRectZero];
     if (self) {
         self.windowLevel = UIWindowLevelStatusBar + 1;
-        self.frame = [UIApplication sharedApplication].statusBarFrame;
         self.animation = BWStatusBarOverlayAnimationTypeFade;
+        
+        BOOL isPortrait = UIDeviceOrientationIsPortrait(STATUS_BAR_ORIENTATION);
+        CGRect statusBarFrame = [UIApplication sharedApplication].statusBarFrame;
+        CGFloat statusBarHeight = (isPortrait) ? statusBarFrame.size.height : statusBarFrame.size.width;
+        CGFloat statusBarWidth = (isPortrait) ? statusBarFrame.size.width : statusBarFrame.size.height;
+        
+        self.frame = CGRectMake(0, 0, statusBarWidth, statusBarHeight);
         
         _contentView = [[UIView alloc] initWithFrame:self.frame];
         self.contentView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
@@ -108,7 +114,7 @@
         [self.contentView addSubview:_progressView];
         
         _activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
-        self.activityView.frame = CGRectMake(4, 4, CGRectGetHeight(self.frame) - 4 * 2, CGRectGetHeight(self.frame) - 4 * 2);
+        self.activityView.frame = CGRectMake(4, 4, statusBarHeight - 4 * 2, statusBarHeight - 4 * 2);
         self.activityView.hidesWhenStopped = YES;
         
         if ([self.activityView respondsToSelector:@selector(setColor:)]) { // IOS5 or greater
@@ -125,8 +131,8 @@
         _textLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         self.textLabel.frame = CGRectMake(CGRectGetWidth(self.activityView.frame) + 10,
                                           0,
-                                          CGRectGetWidth(self.frame) - (CGRectGetWidth(self.activityView.frame) * 2) - (10 * 2),
-                                          CGRectGetHeight(self.frame));
+                                          statusBarWidth - (CGRectGetWidth(self.activityView.frame) * 2) - (10 * 2),
+                                          statusBarHeight);
         self.textLabel.backgroundColor = [UIColor clearColor];
         self.textLabel.font = TEXT_LABEL_FONT;
         self.textLabel.textAlignment = UITextAlignmentCenter;
